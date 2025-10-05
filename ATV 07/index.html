@@ -5,14 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ATV 07</title>
     <style>
-        body {
-                transition: background-color 0.5s ease;   
-             }
+        body{
+            transition: background-color 0.5s ease;   
+        }
     </style>
 </head>
 <body>
     <button onclick="meuBotao()">HELLO WORLD!!</button>
     <p id="meuParagrafo">NADA....</p>  
+
+    <br>
 
     <button onclick="trocarAzul()">AZUL!!</button>
     <button onclick="trocarBranco()">BRANCO!!</button>
@@ -21,13 +23,32 @@
         E vai ficar branco.
     </div>
     
-    <br><br>
+    <br>
 
     <button onclick="Aumentar()">+</button>
     <button onclick="Diminuir()">-</button>
-    
-    <span id="meuSpan">10</span>
+    <br>
+    <p>Contador: <span id="meuSpan">10</span></p>
+
+    <br>
+
+    <input type="text" id="novoItem" placeholder="Digite um item"><br>
+    <button onclick="adicionar()">Adicionar</button>
+
+    <ul id="minhaLista"></ul>
+
+    <br>
+
+    <button onclick="mostrarImg()">IMAGEM!!</button>
+    <img id="minhaImagem" src="https://i.pinimg.com/736x/ec/75/b2/ec75b2b857f121d2da6a1070ff23de6b.jpg" style="display: none;" width="100px" height="100px">
+
+    <br>
+
+    <button onclick="buttonImagem()">IMAGEM!!</button>
+    <img id="IMAGEM1" src="https://i.pinimg.com/736x/ec/75/b2/ec75b2b857f121d2da6a1070ff23de6b.jpg" style="display: block;" width="100px" height="100px">
+    <img id="IMAGEM2" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTnmWAmCeKcxcQlXZozVdjnCfVc715nBXoFg&s" style="display: none;" width="100px" height="100px">
 
     <script src = "script.js" ></script>
+
 </body>
 </html>
