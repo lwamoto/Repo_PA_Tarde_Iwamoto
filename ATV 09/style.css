@@ -1,0 +1,102 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    height: 100vh;
+}
+
+.linha{
+    height: 33.3%;
+}
+
+.linha-flex{
+    display: flex;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+
+
+.flex{
+    display: flex;
+}
+
+.justify-start{
+    justify-content: flex-start;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.justify-end{
+    justify-content: flex-end;
+}
+
+.align-start{
+    align-items: flex-start;
+}
+
+.align-center{
+    align-items: center;
+}
+
+.align-end{
+    align-items: flex-end;
+}
+
+
+
+.rectangle-blue{
+    background-color: blue;
+    height: 100%;
+    width: 50%;
+}
+
+.rectangle-blue-100{
+    background-color: blue;
+    height: 100%;
+    width: 100%;
+}
+
+.rectangle-yellow{
+    background-color: yellow;
+    height: 100%;
+    width: 50%;
+}
+
+.rectangle-white{
+    background-color: white;
+    height: 100%;
+    width: 100%;
+}
+
+.square-blue{
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+}
+
+.square-yellow{
+    background-color: yellow;
+    height: 100px;
+    width: 100px;
+}
+
+
+
+.q-100{
+    height: 100%;
+}
+
+.q-50{
+    height: 50%;
+}
+
+.q-70{
+    height: 70%;
+}
