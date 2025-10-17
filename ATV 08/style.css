@@ -1,0 +1,123 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.container {
+    height: 100vh;
+}
+
+
+.quadrado-azul{
+    background-color: blue;
+    height: 150px;
+    width: 150px;
+}
+
+
+.linha-1{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.linha-2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.linha-3{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+
+.linha{
+    height: 33.3%;
+}
+
+
+.quadrado-laranja{
+    background-color: orange;
+    height: 50px;
+    width: 50px;
+}
+
+.quadrado-laranja-menor{
+    background-color: orange;
+    height: 45px;
+    width: 45px;
+}
+
+
+.q1{
+    height: 50%;
+}
+
+
+.q2{
+    height: 90%;
+}
+
+
+.q3{
+    height: 66.5%;
+}
+
+
+.q4{
+    height: 100%;
+}
+
+.q6{
+    height: -500px;
+}
+
+.q8{
+    height: 66.5%;
+}
+
+.q9{
+    height: 100%;
+}
+
+.flex{
+    display: flex;
+}
+
+
+.alinha-comeco{
+    justify-content: flex-start;
+}
+
+
+.alinha-meio{
+    justify-content: center;
+}
+
+
+.alinha-final{
+    justify-content: end;
+}
+
+
+.coluna-comeco{
+    align-items: flex-start;
+}
+
+.coluna-meio{
+    align-items: center;
+}
+
+
+.coluna-final{
+    align-items: flex-end;
+}
+
+.space{
+    justify-content: space-between;
+}
