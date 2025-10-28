@@ -1,0 +1,107 @@
+.container {
+    height: 333px;
+    width: 100%;
+}
+
+.squard {
+    height: 222px;
+    width: 222px;
+}
+
+.p-right-100{
+    padding-right: 50%;
+}
+
+.p-up-50{
+    padding-top: 50%;
+}
+
+.p-left-25{
+    padding-left: 25%;
+}
+
+.p-up-25{
+    padding-top: 25%;
+}
+
+.p-{
+    padding-top: 11.9%;
+}
+
+
+.flex {
+    display: flex;
+}
+
+.justify-start{
+    justify-content: flex-start;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.justify-end{
+    justify-content: flex-end;
+}
+
+.align-start{
+    align-items: flex-start;
+}
+
+.align-center{
+    align-items: center;
+}
+
+.align-end{
+    align-items: flex-end;
+}
+
+.justify-between{
+    justify-content: space-between;
+}
+
+.justify-around{
+    justify-content: space-around;
+}
+
+.justify-evenly{
+    justify-content: space-evenly;
+}
+
+
+.squard-blue {
+    background-color: blue;
+    height: 222px;
+    width: 222px;
+}
+
+.squard-yellow-111{
+    background-color: yellow;
+    height: 111px;
+    width: 111px;
+}
+
+.squard-yellow-55{
+    background-color: yellow;
+    height: 55px;
+    width: 55px;
+}
+
+.retangle-red{
+    background-color: red;
+    height: 333px;
+    width: 50%;
+}
+
+.retangle-blue{
+    background-color: blue;
+    height: 333px;
+    width: 50%;
+}
+
+.retangle{
+    height: 333px;
+    width: 50%;
+}
+

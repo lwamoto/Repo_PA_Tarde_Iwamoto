@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+    
+    <div class="container"> 
+
+        <div class="flex justify-between">
+
+            <div class="squard-blue">
+                
+                <div class="flex justify-center p-up-25"> 
+
+                    <div class="squard-yellow-111"> </div>
+                    
+                </div>
+
+            </div>
+
+            <div class="squard-blue">
+
+                <div class="flex squard justify-between">
+
+                    <div class="">
+
+                        <div class="squard-yellow-55"></div>
+
+                    </div>
+
+                    <div class="flex justify-end align-end">
+
+                        <div class="squard-yellow-55"></div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+
+    <div class="container">
+
+        <div class="flex align-center justify-center">
+
+            <div class="squard-blue">
+
+                <div class="squard">
+
+                    <div class="flex justify-center ">
+
+                        <div class="squard-yellow-55"></div>
+                    
+                    </div>
+
+                    <div class="flex p-up-50 justify-between">
+
+                        <div class="squard-yellow-55"></div>
+
+                        <div class="squard-yellow-55"></div>
+
+                        <div class="squard-yellow-55"></div>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div class="container"> 
+
+        <div class="flex">
+
+            <div class="retangle-blue flex justify-between">
+
+                <div class="retangle flex justify-around align-center p-left-25">
+
+                    <div class="squard-yellow-111">
+
+                    </div>
+                    <div class="squard-yellow-111">
+
+                    </div>
+                    <div class="squard-yellow-111">
+
+                    </div>
+
+                 </div>
+
+            </div>
+
+            <div class="retangle-red">
+
+
+                <div class="squard-yellow-111"></div>
+
+                <div class="flex justify-end align-end p-">
+
+                    <div class="squard-yellow-111"></div>
+
+                </div>
+
+            </div>   
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+    <input id="n1" type= "text" >
+    <input id="n2" type= "text" >
+    <button onclick = "somar()" >Calcular soma</button>
+    <p id="saida"> </p>
+
+    <script>
+        function somar() {
+            let n1 = document.getElementById("n1").value;
+            let n2 = document.getElementById("n2").value;
+        
+            n1 = Number(n1);
+            n2 = Number(n2);
+        
+            let soma = n1 + n2;
+            document.getElementById("saida").innerText = soma;
+        }
+        
+    </script>
+</body>
+</html>
