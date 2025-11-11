@@ -1,0 +1,122 @@
+.web {
+    background-color: whitesmoke;
+    height: 945px;
+    width: 100%;
+}
+
+.container {
+    background-color: rgb(255, 255, 255);
+    height: 90%;
+    width: 90%;
+}
+
+.retangle-blue {
+    background-color: midnightblue;
+    height: 100%;
+    width: 40%;
+    border-radius: 10px 0px 0px 10px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.retangle-white {
+    background-color: aliceblue;
+    height: 100%;
+    width: 60%;
+    border-radius: 0px 10px 10px 0px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+
+.h2-1{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.h2-2{
+    color: midnightblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.btn{
+    padding: 15px 50px 15px 50px;
+    background-color: darkblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    border-color: white;
+    cursor: pointer;
+}
+
+.btn1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 140px 15px 140px;
+    background-color: midnightblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    border-color: white;
+    cursor: pointer;
+}
+
+.boxs{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 50px;
+    color: grey;
+}
+
+.input{
+    margin: 20px;
+    width: 150px;
+    height: 20px;
+    border-radius: 7px;
+    border: 0;
+}
+
+.border{
+    border-radius: 10px;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-column{
+    flex-direction: column;
+}
+
+.justify-start{
+    justify-content: flex-start;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.justify-end{
+    justify-items: flex-end;
+}
+
+.align-start{
+    align-items: flex-start;
+}
+
+.align-center{
+    align-items: center;
+}
+
+.align-end{
+    align-items: flex-end;
+}
+
+.align-stretch{
+    align-items: stretch;
+}
