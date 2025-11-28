@@ -12,18 +12,58 @@ if ($_POST) {
             VALUES ('$titulo', '$autor', '$ano', '$categoria', '$quantidade')";
 
     if (mysqli_query($conn, $sql)) {
-        header("Location: painel.php");
+        echo "<!DOCTYPE html>
+        <html lang='pt-br'>
+        <head>
+            <meta charset='UTF-8'>
+            <script src='https://cdn.jsdelivr.net/npm/sweetalert2@11'></script>
+        </head>
+        <body>
+            <script>
+                Swal.fire({
+                  title: 'Sucesso!',
+                  text: 'Livro cadastrado com sucesso!',
+                  icon: 'success',
+                  background: '#F5F5F5',
+                  color: '#333333',
+                  confirmButtonColor: '#2C73D2'
+                }).then(() => {
+                  window.location.href = 'painel.php';
+                });
+            </script>
+        </body>
+        </html>";
         exit;
     } else {
-        $erro = "Erro ao cadastrar!";
+        echo "<!DOCTYPE html>
+        <html lang='pt-br'>
+        <head>
+            <meta charset='UTF-8'>
+            <script src='https://cdn.jsdelivr.net/npm/sweetalert2@11'></script>
+        </head>
+        <body>
+            <script>
+                Swal.fire({
+                  title: 'Erro!',
+                  text: 'Erro ao cadastrar livro!',
+                  icon: 'error',
+                  background: '#E57373',
+                  color: '#333333',
+                  confirmButtonColor: '#2C73D2'
+                }).then(() => {
+                  window.location.href = 'logout.php';
+                });
+            </script>
+        </body>
+        </html>";
     }
 }
 ?>
 <link rel="stylesheet" href="style.css">
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
 <div class="container">
     <h2>Cadastrar</h2>
-
     <?php if(isset($erro)) echo "<p style='color:red; text-align:center;'>$erro</p>"; ?>
 
     <form method="POST">
@@ -63,6 +103,7 @@ if ($_POST) {
 
 
         <button type="submit">Cadastrar</button>
+        
 
     </form>
 </div>

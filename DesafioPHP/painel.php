@@ -19,14 +19,15 @@ if ($busca != '') {
 </head>
 <body>
     <div class="container-2">
+        <a href="logout.php">SAIR</a>
         <h1>Desafio PHP — Sistema de Cadastro de
             Livros da Biblioteca Escolar</h1>
-        <form method="GET" action="painel.php">
+        <form method="GET" action="buscar.php">
             <input class="input-text" type="text" name="busca" placeholder="Pesquisar livro..." required>
-            <input class="input-submit" type="submit" value="Buscar">
+            <button class="button-submit" type="submit">🔍 Buscar</button>
         </form>
-            
-        <table border="1">
+
+        <table border="3">
             <tr>
                 <th>ID</th>
                 <th>Título</th>
@@ -53,7 +54,7 @@ if ($busca != '') {
                 echo "<tr><td colspan='5'>Nenhum livro cadastrado.</td></tr>";
             }
 
-            $conn->close();
+            
             ?>
         </table>
 
