@@ -1,0 +1,110 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+.web{
+    height: 100vh;
+    width: 100vw;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.linha1{
+    height: 33.3%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.reblue{
+    height: 100%;
+    width: 50%;
+    background-color: aqua;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.sqyellow{
+    display: flex;
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+}
+
+.reyellow{
+    height: 100%;
+    width: 50%;
+    background-color: yellow;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.sqblue{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+}
+
+
+
+.linha2{
+    height: 33.3%;
+    width: 100%;
+    display: flex;
+}
+
+.rewhite{
+    height: 100%;
+    width: 100%;
+    background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.sqyellow2{
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    display: flex;
+}
+
+.sqblue2{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    display: flex;
+}
+
+
+
+.linha3{
+    height: 33.3%;
+    width: 100;
+    display: flex;
+}
+
+.reblue3{
+    height: 100%;
+    width: 100%;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sqyellow3{
+    height: 100px;
+    width: 100px;
+    display: flex;
+    background-color: yellow;
+}
+
+
+
