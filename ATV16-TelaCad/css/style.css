@@ -1,0 +1,9 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.web{
+    background-color: aqua;
+    height: 100vh;
+    width: 100vw;
+}
